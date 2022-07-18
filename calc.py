@@ -5,12 +5,12 @@ z = input('Enter an operator(add, sub, mult, div): ').lower()
 x, y = map(int, input("Enter two numbers: ").split())
 
 if z == "add":
-    add(x,y)
+    calcfunctions.add(x,y)
 elif z == "sub":
-    sub(x,y)
+    calcfunctions.sub(x,y)
 elif z == "mult":
-    mult(x,y)
+    calcfunctions.mult(x,y)
 elif z == "div":
-    div(x,y)
+    calcfunctions.div(x,y)
 else:
     print("Operator undefined.")
