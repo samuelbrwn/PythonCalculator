@@ -1,4 +1,5 @@
 ################CALCULATOR FUNCTIONS################
+#creates basic functionality for unitary operators
 
 def add(x,y):
     result = (x + y)
